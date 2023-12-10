@@ -1,13 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/date_symbol_data_local.dart';
+import 'dart:io';
 import 'package:workout_fitness/common/extension.dart';
 
 import '../common/color_extension.dart';
 
+final String defaultLocale = Platform.localeName;
+
 class SelectDateTime extends StatelessWidget {
   final DateTime? selectDate;
   final String title;
-  final Function( DateTime) didChange;
+  final Function (DateTime) didChange;
   const SelectDateTime({super.key,required this.title, required this.didChange, this.selectDate});
 
   @override

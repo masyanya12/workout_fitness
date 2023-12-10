@@ -28,7 +28,7 @@ class _RunningDensityViewState extends State<RunningDensityView> {
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
-                    "Калорийность",
+                    "Калорий сожгли",
                     style: TextStyle(
                         color: TColor.secondaryText,
                         fontSize: 18,

@@ -56,7 +56,7 @@ class _Step1ViewState extends State<Step1View> {
           ),
 
            Text(
-            "Тренировки, подобранные лично под вас, помогут вам набрать массу , прийти в лучшую форму вести здоровый образ жизни",
+            "Тренировки, подобранные лично под вас, помогут вам набрать массу , прийти в лучшую форму, вести здоровый образ жизни",
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: TColor.secondaryText,

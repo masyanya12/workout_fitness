@@ -3,6 +3,7 @@ import 'package:flutter_calendar_carousel/flutter_calendar_carousel.dart';
 import '../../common/color_extension.dart';
 import 'package:intl/intl.dart' show DateFormat;
 
+
 class ScheduleView extends StatefulWidget {
   const ScheduleView({super.key});
 
@@ -21,7 +22,7 @@ class _ScheduleViewState extends State<ScheduleView> {
     {
       "day": "2",
       "detail":
-          " Вы тренируетесь по 40 минут в день и пять дней в неделю в определенное время, то есть тренируетесь по регулярному расписанию. Изменение расписания приведет к снижению результатов, что приведет к усталости."
+          "Вы тренируетесь по 40 минут в день и пять дней в неделю в определенное время, то есть тренируетесь по регулярному расписанию. Изменение расписания приведет к снижению результатов, что приведет к усталости."
     },
     {
       "day": "14",
