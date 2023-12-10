@@ -27,7 +27,7 @@ class _RunningTimerViewState extends State<RunningTimerView> {
                             Padding(
                               padding: const EdgeInsets.all(15.0),
                               child: Text(
-                                "Time",
+                                "Время",
                                 style: TextStyle(
                                     color: TColor.secondaryText,
                                     fontSize: 18,

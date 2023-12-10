@@ -26,7 +26,7 @@ class _RunningLengthViewState extends State<RunningLengthView> {
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
-                    "Length",
+                    "Длина",
                     style: TextStyle(
                         color: TColor.secondaryText,
                         fontSize: 18,

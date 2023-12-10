@@ -32,7 +32,7 @@ class SelectDateTime extends StatelessWidget {
                                               Navigator.pop(context);
                                             },
                                             child: Text(
-                                              "Done",
+                                              "Готово",
                                               style: TextStyle(
                                                   color: TColor.secondaryText,
                                                   fontSize: 16,
@@ -71,7 +71,7 @@ class SelectDateTime extends StatelessWidget {
                             ),
                             Text(
                               selectDate == null
-                                  ? "Select Date"
+                                  ? "Выбрать дату"
                                   : selectDate!.stringFormat(format: "MMM dd, yyyy"),
                               style: TextStyle(
                                   color: TColor.primary, fontSize: 18),

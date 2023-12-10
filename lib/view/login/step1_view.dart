@@ -21,7 +21,7 @@ class _Step1ViewState extends State<Step1View> {
       appBar: AppBar(
         backgroundColor: TColor.white,
         centerTitle: true, title:   Text(
-            "Step 1 of 3",
+            "Шаг 1 из 3",
             style: TextStyle(
                 color: TColor.primary,
                 fontSize: 20,
@@ -56,7 +56,7 @@ class _Step1ViewState extends State<Step1View> {
           ),
 
            Text(
-            "Тренировки, подобранные лично под вас, помогут вам\nнабрать массу , прийти в лучшую форму\nвести здоровый образ жизни",
+            "Тренировки, подобранные лично под вас, помогут вам набрать массу , прийти в лучшую форму вести здоровый образ жизни",
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: TColor.secondaryText,

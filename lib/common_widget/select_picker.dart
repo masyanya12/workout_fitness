@@ -33,7 +33,7 @@ class SelectPicker extends StatelessWidget {
                                               Navigator.pop(context);
                                             },
                                             child: Text(
-                                              "Done",
+                                              "Готово",
                                               style: TextStyle(
                                                   color: TColor.secondaryText,
                                                   fontSize: 16,
@@ -82,7 +82,7 @@ class SelectPicker extends StatelessWidget {
                             ),
                             Text(
                               selectVal ??
-                                   "Select"
+                                   "Выбрать"
                                   ,
                               style: TextStyle(
                                   color: TColor.primary, fontSize: 18),

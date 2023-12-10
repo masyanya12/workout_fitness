@@ -27,7 +27,7 @@ class _RunningSpeedViewState extends State<RunningSpeedView> {
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
-                    "Speed",
+                    "Скорость",
                     style: TextStyle(
                         color: TColor.secondaryText,
                         fontSize: 18,

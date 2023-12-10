@@ -186,9 +186,9 @@ class _Step3ViewState extends State<Step3View> {
                               unselectedColor: TColor.white,
                               borderColor: TColor.primary,
                               children: const {
-                                true: Text(" Мужчина ",
+                                true: Text(" Мужской ",
                                     style: TextStyle(fontSize: 18)),
-                                false: Text(" Женщина ",
+                                false: Text(" Женский ",
                                     style: TextStyle(fontSize: 18))
                               },
                               onValueChanged: (isMaleVal) {

@@ -63,7 +63,7 @@ class _RunningHeartViewState extends State<RunningHeartView> {
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
-                    "Heart",
+                    "Пульс",
                     style: TextStyle(
                         color: TColor.secondaryText,
                         fontSize: 18,
