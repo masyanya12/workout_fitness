@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:workout_fitness/help_view/help_view.dart';
 import 'package:workout_fitness/view/home/home_view.dart';
 import 'package:workout_fitness/view/meal_plan/meal_plan_view.dart';
 import 'package:workout_fitness/view/menu/yoga_view.dart';
@@ -60,20 +61,24 @@ class _MenuViewState extends State<MenuView> {
   List menuArr = [
     {"name": "Home", "image": "assets/img/menu_home.png", "tag": "1"},
     {"name": "Вес", "image": "assets/img/menu_weight.png", "tag": "2"},
-    {
-      "name": "План",
-      "image": "assets/img/menu_traning_plan.png",
-      "tag": "3"
-    },
+    {"name": "План", "image": "assets/img/menu_traning_plan.png", "tag": "3"},
     {
       "name": "Аналитика",
       "image": "assets/img/menu_traning_status.png",
       "tag": "4"
     },
-    {"name": "План питания", "image": "assets/img/menu_meal_plan.png", "tag": "5"},
+    {
+      "name": "План питания",
+      "image": "assets/img/menu_meal_plan.png",
+      "tag": "5"
+    },
     {"name": "График", "image": "assets/img/menu_schedule.png", "tag": "6"},
     {"name": "Бег", "image": "assets/img/menu_running.png", "tag": "7"},
-    {"name": "Упражнения", "image": "assets/img/menu_exercises.png", "tag": "8"},
+    {
+      "name": "Упражнения",
+      "image": "assets/img/menu_exercises.png",
+      "tag": "8"
+    },
     {"name": "Советы", "image": "assets/img/menu_tips.png", "tag": "9"},
     {"name": "Настройки", "image": "assets/img/menu_settings.png", "tag": "10"},
     {"name": "Поддержка", "image": "assets/img/menu_support.png", "tag": "11"},
@@ -318,7 +323,7 @@ class _MenuViewState extends State<MenuView> {
                             builder: (context) => const HomeView()));
                     break;
                   case "2":
-                     Navigator.push(
+                    Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => const WeightView()));
@@ -326,8 +331,8 @@ class _MenuViewState extends State<MenuView> {
                   case "3":
                     Scaffold.of(context).openDrawer();
                     break;
-                   case "5":
-                     Navigator.push(
+                  case "5":
+                    Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => const MealPlanView2()));
@@ -338,17 +343,22 @@ class _MenuViewState extends State<MenuView> {
                         MaterialPageRoute(
                             builder: (context) => const ScheduleView()));
                     break;
-                    case "7":
+                  case "7":
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => const RunningView()));
                     break;
-                   case "8":
+                  case "8":
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => const ExerciseView2()));
+                  case "11":
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const HelpView()));
                     break;
                   default:
                 }
