@@ -13,14 +13,14 @@ class WorkoutDetailView extends StatefulWidget {
 
 class _WorkoutDetailViewState extends State<WorkoutDetailView> {
   List workArr = [
-    {"name": "Running", "image": "assets/img/1.png"},
-    {"name": "Jumping", "image": "assets/img/2.png"},
+    {"name": "Прыжки", "image": "assets/img/1.png"},
+    {"name": "Молотки", "image": "assets/img/2.png"},
     {
-      "name": "Running",
+      "name": "Бег",
       "image": "assets/img/5.png",
     },
     {
-      "name": "Jumping",
+      "name": "Гантели",
       "image": "assets/img/3.png",
     },
   ];

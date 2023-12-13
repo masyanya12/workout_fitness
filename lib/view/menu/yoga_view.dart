@@ -16,11 +16,11 @@ class _YogaViewState extends State<YogaView> {
     {"name": "Бег", "image": "assets/img/1.png"},
     {"name": "Прыжки", "image": "assets/img/2.png"},
     {
-      "name": "Бег",
+      "name": "Планка",
       "image": "assets/img/5.png",
     },
     {
-      "name": "Прыжки",
+      "name": "Приседания",
       "image": "assets/img/3.png",
     },
   ];

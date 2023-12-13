@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:workout_fitness/help_view/help_view.dart';
+import 'package:workout_fitness/view/help_view/help_view.dart';
 import 'package:workout_fitness/view/home/home_view.dart';
 import 'package:workout_fitness/view/meal_plan/meal_plan_view.dart';
 import 'package:workout_fitness/view/menu/yoga_view.dart';
@@ -331,6 +331,12 @@ class _MenuViewState extends State<MenuView> {
                   case "3":
                     Scaffold.of(context).openDrawer();
                     break;
+                  // case "4":
+                  //   Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //           builder: (context) => const ResultView()));
+                  //   break;
                   case "5":
                     Navigator.push(
                         context,
@@ -354,6 +360,24 @@ class _MenuViewState extends State<MenuView> {
                         context,
                         MaterialPageRoute(
                             builder: (context) => const ExerciseView2()));
+
+
+                  // case "9":
+                  //   Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //           builder: (context) => const ResultView()));
+                  //   break;
+
+                            
+                  // case "10":
+                  //   Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //           builder: (context) => const ResultView()));
+                  //   break;
+
+
                   case "11":
                     Navigator.push(
                         context,

@@ -53,7 +53,7 @@ class _HelpViewState extends State<HelpView> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
               child: Text(
-                "Если вы нашли проблему, или вам нужна помощь, пишите на нашу почту ;)\n\n С уважением, администрация Lyubar Fit",
+                "Если вы нашли проблему или вам нужна помощь, пишите на нашу почту ;)\n\n С уважением, администрация Lyubar Fit",
                 style: TextStyle(color: TColor.secondaryText, fontSize: 16),
               ),
             ),

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:workout_fitness/view/login/on_boarding_view.dart';
-// import 'package:workout_fitness/view/login/on_boarding_view.dart';
 import 'package:workout_fitness/view/menu/menu_view.dart';
-
 import 'common/color_extension.dart';
 
 void main() {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../common/color_extension.dart';
 
-enum RoundButtonType { primary, primaryText }
+enum RoundButtonType { primary, primaryText, bgGradient }
 
 class RoundButton extends StatelessWidget {
   final String title;

@@ -96,7 +96,7 @@ class _ExerciseView2State extends State<ExerciseView2> {
               Expanded(
                 flex: 2,
                 child: TabButton2(
-                  title: "Тело",
+                  title: "Торс",
                   isActive: isActiveTab == 3,
                   onPressed: () {
                     setState(() {

@@ -14,13 +14,13 @@ class WorkoutView2 extends StatefulWidget {
 class _WorkoutView2State extends State<WorkoutView2> {
   List workArr = [
     {"name": "Отжимания", "image": "assets/img/1.png"},
-    {"name": "Сгибание ног", "image": "assets/img/2.png"},
+    {"name": "Скручивания", "image": "assets/img/2.png"},
     {
-      "name": "Отжимания",
+      "name": "Выпады",
       "image": "assets/img/5.png",
     },
     {
-      "name": "Альпинист",
+      "name": "Прыжки",
       "image": "assets/img/3.png",
     },
   ];
@@ -43,7 +43,7 @@ class _WorkoutView2State extends State<WorkoutView2> {
               height: 25,
             )),
         title: Text(
-          "Разминка",
+          "Тренировка",
           style: TextStyle(
               color: TColor.white, fontSize: 20, fontWeight: FontWeight.w700),
         ),

@@ -57,7 +57,7 @@ class _WorkoutViewState extends State<WorkoutView> {
               height: 25,
             )),
         title: Text(
-          "Разминка",
+          "Тренировка",
           style: TextStyle(
               color: TColor.primaryText,
               fontSize: 20,
