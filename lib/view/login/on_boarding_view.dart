@@ -94,7 +94,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                       pObj["subtitle"].toString(),
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          color: TColor.white,
+                          color: TColor.qwerty,
                           fontSize: 14),
                     ),
                   ],
@@ -119,7 +119,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                     width: 12,
                     height: 12,
                     decoration: BoxDecoration(
-                      color:  selectPage == index ? TColor.white : TColor.white.withOpacity(0.5),
+                      color:  selectPage == index ? TColor.primary : TColor.primary.withOpacity(0.5),
                       borderRadius: BorderRadius.circular(6)
                     ),
                   );
@@ -131,7 +131,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
 
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 25),
-                child: RoundButton(title: "Начать", type: RoundButtonType.primaryText, onPressed: (){
+                child: RoundButton(title: "Начать", type: RoundButtonType.primary, onPressed: (){
 
 
                   Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const Step1View()), (route) => false);

@@ -366,7 +366,7 @@ class _MenuViewState extends State<MenuView> {
                   //   Navigator.push(
                   //       context,
                   //       MaterialPageRoute(
-                  //           builder: (context) => const ResultView()));
+                  //           builder: (context) => const TipsView()));
                   //   break;
 
                             
